@@ -1,0 +1,11 @@
+#goal definition
+std_msgs/Header goal_header
+int32 maximumCharge
+---
+#result definition
+std_msgs/Header result_header
+bool goal_reached
+---
+#feedback
+std_msgs/Header feedback_header
+int32 currentCharge

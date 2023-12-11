@@ -1,0 +1,14 @@
+#goal definition
+controller/final_pose pose
+
+---
+#result definition
+float32[] obstacles_x
+float32[] obstacles_y
+float32[] obstacles_theta
+bool goal_reached
+---
+#feedback
+float32 current_x
+float32 current_y
+float32 current_theta
